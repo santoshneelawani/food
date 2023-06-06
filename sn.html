@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Food App</title>
+    <style>
+      header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #696969;
+}
+
+header li {
+  float: left;
+}
+
+ header li a {
+  display: block;
+  color: rgb(246, 248, 250);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+header li a:hover {
+  background-color: #111;
+}
+      .text-content a{
+        text-decoration:none;
+        color:black;
+      }
+      .images{
+        width:50%;
+        margin:0 auto;
+      }
+      .labels{
+        margin-left:240px;
+        margin-bottom:40px;
+      }
+      .fooditem{
+        width:500px;
+        height:500px;
+      }
+    </style>
+  </head>
+  <body style="padding:0px;margin:0px;background-color:rgb(154, 155, 156);">
+    <header>
+      <ul>
+        <li><a href="#">Index</a></li>
+        <li><a href="#">Food</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </header>
+    <div class="main">
+      <div class="text-content">
+        <h1 style="color: rgb(4, 25, 219);
+              text-decoration: underline;">
+                
+                 Top 5 favourite foods
+                 </h1>
+        <ol>
+          <li><a href="#kabab">kabab</a></li>
+          <li><a href="#dosa">dosa</a></li>
+          <li><a href="#biriyani">biriyani</a></li>
+          <li><a href="#french fries">french fries</a></li>
+          <li><a href="#iscream">iscream</a></li>
+        </ol>
+      </div> 
+      <div class="images">
+        <div id="kabab"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtj5DbRhQc2ogugKoutdROOeTGcgjKAzIGjlPuCRA7kA&usqp=CAU&ec=48600112" class="fooditem"></div>
+        <p class="labels">kabab</p>
+        <div id="dosa"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqm0gSiQO28DBnKRAXeFj-TWrmLtH1L7Dr1L9brlmU-g&usqp=CAU&ec=48600112" class="fooditem"/></div>
+        <p class="labels">dosa</p>
+        <div id="biriyani"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxVZc2Dt0qdCLAqopFSNmkgUa-sJ9s26Wt7TYg-ge4Pw&usqp=CAU&ec=48600112" class="fooditem"/></div>
+        <p class="labels">biriyani</p>
+        <div id="french fries"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVfUHCiP8SUxNuHAG0WAAdXoVgK_hMYM0g3I7G46zWkWTC_a53_EdhZI0qOzUG7OxYQptCsNSnw38&usqp=CAU&ec=48600112" class="fooditem"/></div>
+        <p class="labels">french fries</p>
+        <div id="iscream"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR4NHLC03fnVn6ym80kpPbRdRv1E1SJtxXqcPSXBtQZjGTbaWMkA_8W7nJANbSpfoY61jvG0rri_4&usqp=CAU&ec=48600112" class="fooditem"/></div>
+        <p class="labels">iscream</p>
+      </div>
+    </div>
+  </body>
+</html>
